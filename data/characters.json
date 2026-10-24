@@ -5,9 +5,10 @@
     "gender": "女",
     "father": "布兰特",
     "photos": [
-      "/images/characters/baby1.jpg"
+      "/images/characters/baby1.jpg",
+      "/images/characters/屏幕截图 2026-10-24 170319.png"
     ],
-    "traits": ["暂无"],
+    "traits": "暂无",
     "lifeEvents": "刚刚出生。",
     "bio": "敏感的婴儿。",
     "birthOrder": "第1胎"
