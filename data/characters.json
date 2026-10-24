@@ -4,8 +4,10 @@
     "name": "沈林栖",
     "gender": "女",
     "father": "布兰特",
-    "photos": "/images/characters/liam.jpg,/images/characters/婴儿沈林栖.jpg",
-    "traits": "暂无。",
+    "photos": [
+      "/images/characters/baby1.jpg"
+    ],
+    "traits": ["暂无"],
     "lifeEvents": "刚刚出生。",
     "bio": "敏感的婴儿。",
     "birthOrder": "第1胎"
