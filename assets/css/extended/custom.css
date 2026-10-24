@@ -13,37 +13,119 @@
   overflow: hidden;
   background: var(--entry);
   transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column; /* 保证内容撑满高度 */
 }
 
-.character-card:hover { transform: translateY(-4px); }
+.character-card:hover {
+  transform: translateY(-4px);
+}
 
-/* 照片区域 */
-.character-photo {
-  aspect-ratio: 4 / 3;
-  overflow: hidden;
+/* 照片相册区域（支持左右滑动） */
+.character-gallery {
+  display: flex;
+  overflow-x: auto;              /* 允许多图时横向滑动 */
+  scroll-snap-type: x mandatory; /* 滑动时自动对齐 */
+  aspect-ratio: 4 / 3;           /* 保持卡片高度一致 */
   background: var(--code-bg);
+  scrollbar-width: thin;         /* 底部显示一条细细的滚动条 */
 }
 
-.character-photo img {
+.character-gallery::-webkit-scrollbar {
+  height: 4px;
+}
+
+.character-gallery::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  border-radius: 4px;
+}
+
+.gallery-img {
+  flex: 0 0 100%;          /* 每张图占满整个相册宽度 */
   width: 100%;
   height: 100%;
   object-fit: cover;
+  scroll-snap-align: start; /* 滑动停止时对齐图片 */
 }
 
 /* 信息区域 */
-.character-info { padding: 16px; }
-.character-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
-.character-header h2 { margin: 0; font-size: 1.2rem; }
-.character-gender { font-size: 0.8rem; padding: 2px 8px; border-radius: 999px; background: var(--tertiary-bg); color: var(--secondary); }
-.character-father { margin: 8px 0; font-size: 0.9rem; color: var(--secondary); }
+.character-info {
+  padding: 16px;
+  flex-grow: 1;            /* 撑满剩余空间 */
+  display: flex;
+  flex-direction: column;
+}
+
+.character-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.character-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.character-gender {
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--tertiary-bg);
+  color: var(--secondary);
+}
+
+.character-father {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
 
 /* 喜好标签 */
-.character-traits { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
-.trait-tag { font-size: 0.75rem; padding: 2px 8px; border-radius: 999px; background: var(--primary); color: var(--theme); }
+.character-traits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
 
-.character-bio { font-size: 0.9rem; color: var(--secondary); margin: 8px 0; }
-.character-events { margin-top: 8px; font-size: 0.9rem; }
-.character-events summary { cursor: pointer; color: var(--primary); }
-.character-order { margin-top: 8px; font-size: 0.8rem; color: var(--secondary); text-align: right; }
+.trait-tag {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: var(--theme);
+}
 
-@media (max-width: 600px) { .character-grid { grid-template-columns: 1fr; } }
+.character-bio {
+  font-size: 0.9rem;
+  color: var(--secondary);
+  margin: 8px 0;
+}
+
+/* 人生经历折叠块 */
+.character-events {
+  margin-top: auto;        /* 永远推到底部，保持卡片整齐 */
+  padding-top: 8px;
+  font-size: 0.9rem;
+}
+
+.character-events summary {
+  cursor: pointer;
+  color: var(--primary);
+}
+
+.character-order {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: var(--secondary);
+  text-align: right;
+}
+
+/* 小屏幕自动变成单列 */
+@media (max-width: 600px) {
+  .character-grid {
+    grid-template-columns: 1fr;
+  }
+}
