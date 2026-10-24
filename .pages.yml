@@ -1,0 +1,22 @@
+media:
+  input: "static/images/characters"
+  output: "/images/characters"
+
+content:
+  - name: "characters"
+    label: "角色档案"
+    type: "collection"
+    path: "data/characters.json"
+    format: "json"
+    create: true
+    delete: true
+    fields:
+      - { name: "id", label: "编号 (数字)", type: "number" }
+      - { name: "name", label: "姓名", type: "string" }
+      - { name: "gender", label: "性别", type: "string" }
+      - { name: "father", label: "父亲", type: "string" }
+      - { name: "photo", label: "照片", type: "image" }
+      - { name: "traits", label: "喜好特征", type: "list", field: { name: "trait", label: "特征", type: "string" } }
+      - { name: "lifeEvents", label: "人生经历", type: "text" }
+      - { name: "bio", label: "简介", type: "text" }
+      - { name: "birthOrder", label: "排行 (如: 第1胎)", type: "string" }
