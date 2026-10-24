@@ -16,9 +16,14 @@
       <strong>父亲：</strong>{{ .father }}
     </p>
 
+    <!-- 喜好特征（兼容文字和列表格式） -->
     <div class="character-traits">
-      {{ range .traits }}
-        <span class="trait-tag">{{ . }}</span>
+      {{ if reflect.IsSlice .traits }}
+        {{ range .traits }}
+          <span class="trait-tag">{{ . }}</span>
+        {{ end }}
+      {{ else }}
+        <span class="trait-tag">{{ .traits }}</span>
       {{ end }}
     </div>
 
