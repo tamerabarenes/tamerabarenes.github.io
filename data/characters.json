@@ -8,7 +8,9 @@
       "/images/characters/baby1.jpg",
       "/images/characters/baby2.jpg"
     ],
-    "traits": "暂无",
+    "traits": [
+      "暂无"
+    ],
     "lifeEvents": "刚刚出生。",
     "bio": "敏感的婴儿。",
     "birthOrder": "第1胎"
