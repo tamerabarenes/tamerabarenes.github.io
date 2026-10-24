@@ -1,4 +1,4 @@
-baseURL = "http://example.com/"
+baseURL = "https://tamerabarenes.github.io/"
 locale = "zh-cn"
 title = "百孩挑战记录"
 theme = "PaperMod"
