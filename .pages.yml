@@ -14,7 +14,7 @@ content:
       - { name: "name", label: "姓名", type: "string" }
       - { name: "gender", label: "性别", type: "string" }
       - { name: "father", label: "父亲", type: "string" }
-      - { name: "photo", label: "照片", type: "image" }
+      - { name: "photos", label: "照片相册", type: "list", field: { name: "photo", label: "照片", type: "image" } }
       - { name: "traits", label: "喜好特征", type: "list", field: { name: "trait", label: "特征", type: "string" } }
       - { name: "lifeEvents", label: "人生经历", type: "text" }
       - { name: "bio", label: "简介", type: "text" }
