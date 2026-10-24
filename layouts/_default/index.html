@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>百孩挑战记录</h1>
+<p>当前共有 {{ len hugo.Data.characters }} 个角色。</p>
+
+<div class="character-grid">
+  {{ range hugo.Data.characters }}
+    {{ partial "character-card.html" . }}
+  {{ end }}
+</div>
+{{ end }}

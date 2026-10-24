@@ -1,0 +1,32 @@
+<article class="character-card">
+  <div class="character-photo">
+    <!-- 这里会自动读取 JSON 里的 photo 字段 -->
+    <img src="{{ .photo }}" alt="{{ .name }}" loading="lazy">
+  </div>
+
+  <div class="character-info">
+    <div class="character-header">
+      <h2>{{ .name }}</h2>
+      <span class="character-gender">{{ .gender }}</span>
+    </div>
+
+    <p class="character-father">
+      <strong>父亲：</strong>{{ .father }}
+    </p>
+
+    <div class="character-traits">
+      {{ range .traits }}
+        <span class="trait-tag">{{ . }}</span>
+      {{ end }}
+    </div>
+
+    <p class="character-bio">{{ .bio }}</p>
+
+    <details class="character-events">
+      <summary>人生经历</summary>
+      <p>{{ .lifeEvents }}</p>
+    </details>
+
+    <p class="character-order">{{ .birthOrder }}</p>
+  </div>
+</article>

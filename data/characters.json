@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Liam",
+    "gender": "男",
+    "father": "Don Lothario",
+    "photo": "/images/characters/liam.jpg",
+    "traits": ["欢乐", "创意"],
+    "lifeEvents": "第一代长子。",
+    "bio": "性格开朗。",
+    "birthOrder": "第1胎"
+  },
+  {
+    "name": "Olivia",
+    "gender": "女",
+    "father": "Johnny Zest",
+    "photo": "/images/characters/olivia.jpg",
+    "traits": ["天才", "书呆子"],
+    "lifeEvents": "第一代长女。",
+    "bio": "安静爱读书。",
+    "birthOrder": "第2胎"
+  }
+]

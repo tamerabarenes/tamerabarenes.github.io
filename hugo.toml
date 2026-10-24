@@ -1,0 +1,19 @@
+baseURL = "http://example.com/"
+locale = "zh-cn"
+title = "百孩挑战记录"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowWordCount = false
+  ShowBreadCrumbs = true
+
+  [params.homeInfoParams]
+    Title = "百孩挑战"
+    Content = "记录每一位孩子的父亲、照片、喜好与人生经历。"
+
+[[menu.main]]
+  name = "角色档案"
+  url = "/characters/"
+  weight = 1
