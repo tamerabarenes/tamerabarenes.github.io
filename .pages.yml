@@ -5,11 +5,10 @@ media:
 content:
   - name: "characters"
     label: "角色档案"
-    type: "collection"
+    type: "file"
     path: "data/characters.json"
     format: "json"
-    create: true
-    delete: true
+    list: true
     fields:
       - { name: "id", label: "编号 (数字)", type: "number" }
       - { name: "name", label: "姓名", type: "string" }
