@@ -1,7 +1,9 @@
 <article class="character-card">
-  <div class="character-photo">
-    <!-- 这里会自动读取 JSON 里的 photo 字段 -->
-    <img src="{{ .photo }}" alt="{{ .name }}" loading="lazy">
+  <!-- 照片相册区域 -->
+  <div class="character-gallery">
+    {{ range .photos }}
+      <img src="{{ . }}" alt="{{ $.name }}" class="gallery-img" loading="lazy">
+    {{ end }}
   </div>
 
   <div class="character-info">
