@@ -99,9 +99,20 @@
     "photos": [
       "/images/characters/屏幕截图 2026-10-27 140807.png",
       "/images/characters/屏幕截图 2026-10-28 141838-1.png",
-      "/images/characters/屏幕截图 2026-10-29 110910-1.png"
+      "/images/characters/屏幕截图 2026-10-29 110910-1.png",
+      "/images/characters/屏幕截图 2026-10-29 144035.png"
     ],
     "traits": "宁静；",
     "birthOrder": "第5胎"
+  },
+  {
+    "id": 8,
+    "name": "沈桑晚",
+    "gender": "女",
+    "father": "桑莫",
+    "photos": [
+      "/images/characters/屏幕截图 2026-10-29 144047.png"
+    ],
+    "birthOrder": "第6胎"
   }
 ]
