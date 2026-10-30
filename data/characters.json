@@ -115,5 +115,15 @@
       "/images/characters/屏幕截图 2026-10-29 155101.png"
     ],
     "birthOrder": "第6胎"
+  },
+  {
+    "id": 9,
+    "name": "沈琳溪",
+    "gender": "女",
+    "father": "卡特琳娜",
+    "photos": [
+      "/images/characters/屏幕截图 2026-10-30 222016.png"
+    ],
+    "birthOrder": "第7胎"
   }
 ]
