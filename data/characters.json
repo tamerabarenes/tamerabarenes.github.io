@@ -127,5 +127,13 @@
       "/images/characters/屏幕截图 2026-10-31 202457.png"
     ],
     "birthOrder": "第7胎"
+  },
+  {
+    "id": 10,
+    "name": "沈尔川",
+    "gender": "男",
+    "photos": [
+      "/images/characters/屏幕截图 2026-10-31 205638.png"
+    ]
   }
 ]
