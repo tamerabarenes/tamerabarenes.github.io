@@ -133,6 +133,7 @@
     "id": 10,
     "name": "沈尔川",
     "gender": "男",
+    "father": "米切尔",
     "photos": [
       "/images/characters/屏幕截图 2026-10-31 205638.png"
     ]
