@@ -140,6 +140,17 @@
     "photos": [
       "/images/characters/屏幕截图 2026-10-31 205638.png",
       "/images/characters/屏幕截图 2026-11-02 212116.png"
-    ]
+    ],
+    "birthOrder": "第8胎"
+  },
+  {
+    "id": 11,
+    "name": "沈艾宁",
+    "gender": "女",
+    "father": "艾莉丝",
+    "photos": [
+      "/images/characters/屏幕截图 2026-11-03 230635.png"
+    ],
+    "birthOrder": "第9胎"
   }
 ]
