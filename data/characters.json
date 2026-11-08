@@ -156,5 +156,25 @@
       "/images/characters/屏幕截图 2026-11-04 165427.png"
     ],
     "birthOrder": "第9胎"
+  },
+  {
+    "id": 12,
+    "name": "沈崔彬",
+    "gender": "男",
+    "father": "卡崔娜",
+    "photos": [
+      "/images/characters/屏幕截图 2026-11-08 203040.png"
+    ],
+    "birthOrder": "第10胎"
+  },
+  {
+    "id": 13,
+    "name": "沈崔秀",
+    "gender": "女",
+    "father": "卡崔娜",
+    "photos": [
+      "/images/characters/屏幕截图 2026-11-08 203104.png"
+    ],
+    "birthOrder": "第10胎"
   }
 ]
