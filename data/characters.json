@@ -184,5 +184,15 @@
       "/images/characters/屏幕截图 2026-11-15 215714.png"
     ],
     "birthOrder": "第10胎"
+  },
+  {
+    "id": 14,
+    "name": "沈莉曦",
+    "gender": "男",
+    "father": "莉莉丝",
+    "photos": [
+      "/images/characters/屏幕截图 2026-11-17 233922.png"
+    ],
+    "birthOrder": "第11胎"
   }
 ]
