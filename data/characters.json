@@ -169,7 +169,9 @@
     "photos": [
       "/images/characters/屏幕截图 2026-11-08 203040.png",
       "/images/characters/屏幕截图 2026-11-15 211401.png",
-      "/images/characters/屏幕截图 2026-11-15 220033.png"
+      "/images/characters/屏幕截图 2026-11-15 220033.png",
+      "/images/characters/屏幕截图 2026-11-18 134800.png",
+      "/images/characters/屏幕截图 2026-11-18 134822.png"
     ],
     "birthOrder": "第10胎"
   },
@@ -181,7 +183,9 @@
     "photos": [
       "/images/characters/屏幕截图 2026-11-08 203104.png",
       "/images/characters/屏幕截图 2026-11-11 235703.png",
-      "/images/characters/屏幕截图 2026-11-15 215714.png"
+      "/images/characters/屏幕截图 2026-11-15 215714.png",
+      "/images/characters/屏幕截图 2026-11-18 143433.png",
+      "/images/characters/屏幕截图 2026-11-18 143448.png"
     ],
     "birthOrder": "第10胎"
   },
@@ -191,8 +195,19 @@
     "gender": "男",
     "father": "莉莉丝",
     "photos": [
-      "/images/characters/屏幕截图 2026-11-17 233922.png"
+      "/images/characters/屏幕截图 2026-11-17 233922.png",
+      "/images/characters/屏幕截图 2026-11-19 185305.png"
     ],
     "birthOrder": "第11胎"
+  },
+  {
+    "id": 15,
+    "name": "沈野利",
+    "gender": "男",
+    "father": "江野",
+    "photos": [
+      "/images/characters/屏幕截图 2026-11-19 191508.png"
+    ],
+    "birthOrder": "第12胎"
   }
 ]
