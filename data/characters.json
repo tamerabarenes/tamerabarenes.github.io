@@ -196,7 +196,10 @@
     "father": "莉莉丝",
     "photos": [
       "/images/characters/屏幕截图 2026-11-17 233922.png",
-      "/images/characters/屏幕截图 2026-11-19 185305.png"
+      "/images/characters/屏幕截图 2026-11-19 185305.png",
+      "/images/characters/屏幕截图 2026-11-22 211536.png",
+      "/images/characters/屏幕截图 2026-11-23 220438.png",
+      "/images/characters/屏幕截图 2026-11-23 220712.png"
     ],
     "birthOrder": "第11胎"
   },
@@ -206,8 +209,20 @@
     "gender": "男",
     "father": "江野",
     "photos": [
-      "/images/characters/屏幕截图 2026-11-19 191508.png"
+      "/images/characters/屏幕截图 2026-11-19 191508.png",
+      "/images/characters/屏幕截图 2026-11-22 205206.png"
     ],
     "birthOrder": "第12胎"
+  },
+  {
+    "id": 16,
+    "name": "沈纳昕",
+    "gender": "男",
+    "father": "钱纳莱",
+    "photos": [
+      "/images/characters/屏幕截图 2026-11-22 205153.png",
+      "/images/characters/屏幕截图 2026-11-23 205315.png"
+    ],
+    "birthOrder": "第13胎"
   }
 ]
