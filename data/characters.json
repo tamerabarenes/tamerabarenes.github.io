@@ -210,7 +210,8 @@
     "father": "江野",
     "photos": [
       "/images/characters/屏幕截图 2026-11-19 191508.png",
-      "/images/characters/屏幕截图 2026-11-22 205206.png"
+      "/images/characters/屏幕截图 2026-11-22 205206.png",
+      "/images/characters/屏幕截图 2026-11-24 140223.png"
     ],
     "birthOrder": "第12胎"
   },
@@ -224,5 +225,14 @@
       "/images/characters/屏幕截图 2026-11-23 205315.png"
     ],
     "birthOrder": "第13胎"
+  },
+  {
+    "id": 17,
+    "name": "沈泰昱",
+    "gender": "男",
+    "father": "泰拉",
+    "photos": [
+      "/images/characters/屏幕截图 2026-11-24 144356.png"
+    ]
   }
 ]
