@@ -238,6 +238,14 @@
       "/images/characters/屏幕截图 2026-11-24 144356.png",
       "/images/characters/屏幕截图 2026-11-26 145918.png",
       "/images/characters/屏幕截图 2026-11-28 170124.png"
-    ]
+    ],
+    "birthOrder": "第14胎"
+  },
+  {
+    "id": 18,
+    "name": "沈奥熙",
+    "gender": "男",
+    "father": "奥雷里奥",
+    "birthOrder": "第15胎"
   }
 ]
